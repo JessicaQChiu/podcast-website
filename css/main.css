@@ -1,0 +1,276 @@
+/*--- Fonts ---*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/*--- Base ---*/
+
+*, *::before, *::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+html,
+body,
+header,
+#landingScreen {
+    height: 100%;
+}
+
+h1 {
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1em;
+    color: rgb(255, 255, 255);
+}
+h2 {
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1em;
+    color: rgb(0, 0, 0);
+}
+h3 {
+    padding: 15px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5em;
+    color: rgb(0, 0, 0);
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+h6 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 1em;
+}
+p.subtitle {
+    font-style: italic;
+}
+
+ul > li {
+    display:inline;
+}
+
+/*--- Landing screen ---*/
+
+#landingScreen {
+    background: url('../images/landing-bg.png') right bottom no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.intro {
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: rgb(255, 255, 255);
+}
+.intro a {
+    color: rgb(255, 255, 255);
+}
+.intro a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color:rgb(184, 197, 253);
+}
+
+.fa-chevron-circle-down {
+    color: rgb(255, 255, 255);
+} 
+
+.fa-chevron-circle-down:hover {
+    color: rgb(184, 197, 253);
+} 
+
+.text-grey-bg {
+    background-color: rgb(43, 43, 43);
+}
+
+/*--- Navigation bar ---*/
+
+.navbar {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: rgb(43, 43, 43) !important;
+}
+.navbar-fixed-top.scrolled {
+    transition: 100ms linear;
+}
+.nav-item{
+    padding: 0 35px;
+}
+.navbar, .navbar li a {
+    color: rgb(255, 255, 255)!important; 
+}
+.navbar-nav li a:hover {
+    color: rgb(184, 197, 253)!important;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.navbar-nav li.active a {
+    color: rgb(184, 197, 253)!important;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.img-logo {
+    max-width: 50px;
+}
+.navbar-toggler {  
+    border: none;
+    padding: 5px;
+}
+
+/*--- Main content ---*/
+
+.container-lg {
+    width: 90%;
+    padding-top: 10em;
+    padding-bottom: 5em;
+}
+.col-lg-4 {
+    width: 80%;
+    margin-top: 30px;
+}
+.col-lg-3 {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+.img-circle {
+    max-width: 250px;
+    border-radius: 50%;
+    margin-bottom: 2em;
+}
+
+a.text-link {
+    color: rgb(184, 197, 253)!important;
+}
+
+.underline-heading{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color:rgb(184, 197, 253) !important;
+}
+.underline-link{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color:rgb(184, 197, 253)!important;
+}
+.underline-link:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color:rgb(43, 43, 43) !important;
+}
+
+.portfolio-item a{
+    color: rgb(43, 43, 43) !important;
+}
+.portfolio-item a:hover{
+    color: rgb(86, 95, 138) !important;
+}
+
+/*--- Social Media ---*/
+
+.socialmedia{
+    margin-left: -40px;
+}
+.socialmedia li {
+    padding: 10px;
+}
+.socialmedia li a {
+    color: rgb(255, 255, 255)!important; 
+}
+.socialmedia li a:hover {
+    color: rgb(184, 197, 253)!important;
+}
+
+/*--- Dark Email Section ---*/
+
+#email-subscribe {
+    background-color: rgb(43, 43, 43);
+}
+#email-subscribe h2 {
+    padding: 0 1em;
+    color: rgb(255, 255, 255);
+    line-height: 1.5em;
+}
+
+#email-subscribe #emailHelp {
+    color: rgb(255, 255, 255);
+}
+
+#email-subscribe form {
+    width: 80%;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+/*--- Footer ---*/
+
+footer {
+    padding: 1em;
+    font-size: 1rem;
+    background-color: rgb(43, 43, 43) !important;
+    color: rgb(255, 255, 255)!important;
+}
+footer a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: rgb(255, 255, 255)!important;
+}
+footer a:hover {
+    color:rgb(184, 197, 253)!important;
+}
+
+.container-md {
+    width: 80%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 50px;
+    }
+    #landingScreen {
+        background: url('../images/landing-bg-mobile.png') right bottom no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .navbar-brand {
+        font-size: 14px;
+    }
+  }
