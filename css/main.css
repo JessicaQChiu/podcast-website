@@ -273,4 +273,10 @@ footer a:hover {
     .navbar-brand {
         font-size: 14px;
     }
+    .img-blog {
+        display: block;
+        margin: auto;
+        width: 75%;
+        height: auto;
+    }
   }
