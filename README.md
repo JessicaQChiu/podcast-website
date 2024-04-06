@@ -1,7 +1,7 @@
 # podcast-website
 
 <div align="center">
-  <a href="https://podcast-website-qc3l4vadg-jess-projects-ec07bfaa.vercel.app/">
+  <a href="https://blue-days.vercel.app/">
     <img src="https://github.com/JessicaQChiu/podcast-website/blob/main/images/blog-2.png" alt="Abstract waves" width="100" height="100">
   </a>
 </div>
@@ -26,12 +26,12 @@ Podcast landing page sample created to showcase and learn front-end development.
 
 ## Preview
 
-[Github link]([url](https://github.com/JessicaQChiu/podcast-website))
+Github: https://github.com/JessicaQChiu/podcast-website
 
-[Demo Website]([url](https://podcast-website-qc3l4vadg-jess-projects-ec07bfaa.vercel.app/))
+Demo Website: https://blue-days.vercel.app/
 
 <div align="center">
-  <a href="https://podcast-website-qc3l4vadg-jess-projects-ec07bfaa.vercel.app/">
+  <a href="https://blue-days.vercel.app/">
       <img src="https://raw.githubusercontent.com/JessicaQChiu/podcast-website/main/images/social-preview.png" width="750">
   </a>
 </div>
