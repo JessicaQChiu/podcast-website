@@ -1,4 +1,4 @@
-# podcast-website
+# Blue Days Podcast Webpage
 
 <div align="center">
   <a href="https://blue-days.vercel.app/">
@@ -8,7 +8,7 @@
 
 ## About The Project
 
-Podcast landing page sample created to showcase and learn front-end development. Fake podcast named "Blue Days" focusing on topics related to mental health.
+Podcast landing page SPA sample created to showcase and learn front-end development. Fake podcast named "Blue Days" focusing on topics related to mental health.
 
 ### Built With
 * HTML
